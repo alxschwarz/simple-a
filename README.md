@@ -5,6 +5,4 @@ Minimalistic Hugo theme
 
 At this moment theme is WIP.
 
-Screenshot
-----------
-  ![Screenshot](simple-a.png)
+I'm using it as my personal blog theme and you can take a look at [ru.alexfinn.eu](http://ru.alexfinn.eu)

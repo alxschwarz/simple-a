@@ -1,8 +1,6 @@
 name = "AlexFinn"
 license = "MIT"
-source_repo = ""
+source_repo = "https://github.com/AlexFinn/simple-a"
 author = "alexfinn"
-original_author = "arnp"
-ported_from = "http://www.github.com/arnp/herring-cove"
-description = "Herring Cove is ported from the jekyll theme of the same name"
+description = "HMinimalistic Hugo theme"
 tags = ["blog", "company"]
