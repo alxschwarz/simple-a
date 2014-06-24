@@ -1,0 +1,8 @@
+name = "AlexFinn"
+license = "MIT"
+source_repo = ""
+author = "alexfinn"
+original_author = "arnp"
+ported_from = "http://www.github.com/arnp/herring-cove"
+description = "Herring Cove is ported from the jekyll theme of the same name"
+tags = ["blog", "company"]
