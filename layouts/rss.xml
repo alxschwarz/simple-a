@@ -3,15 +3,14 @@
       <title>{{ .Title }} on {{ .Site.Title }} </title>
     <link>{{ .Permalink }}</link>
     <language>en-us</language>
-    <author>Alexandre Normand</author>
-    <rights>Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License by Alexandre Normand</rights>
+    <author>Alexander Ivanov</author>
     <updated>{{ .Date }}</updated>
     {{ range .Data.Pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
-      <author>Alexandre Normand</author>
+      <author>Alexander Ivanov</author>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
     </item>
