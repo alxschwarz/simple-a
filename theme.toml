@@ -1,6 +1,12 @@
-name = "AlexFinn"
+name = "simple-a"
 license = "MIT"
-source_repo = "https://github.com/AlexFinn/simple-a"
-author = "alexfinn"
+licenselink = "https://github.com/AlexFinn/simple-a/blob/master/LICENSE.md"
 description = "Minimalistic Hugo theme"
-tags = ["blog", "company"]
+
+tags = ["AlexFinn", ]
+features = ["blog", ]
+
+[author]
+    name = "AlexFinn"
+    homepage = "http://ru.alexfinn.eu/"
+    source_repo = "https://github.com/AlexFinn/simple-a"
