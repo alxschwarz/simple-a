@@ -3,10 +3,10 @@ license = "MIT"
 licenselink = "https://github.com/AlexFinn/simple-a/blob/master/LICENSE.md"
 description = "Minimalistic Hugo theme"
 
-tags = ["alexfinn", ]
+tags = ["AlexFinn", ]
 features = ["blog", ]
 
 [author]
-    name = "alexfinn"
+    name = "AlexFinn"
     homepage = "http://ru.alexfinn.eu/"
     source_repo = "https://github.com/AlexFinn/simple-a"
