@@ -117,13 +117,6 @@ footer {
   margin-bottom: 25px;
 }
 
-.posts span {
-  float: right;
-  text-transform: uppercase;
-  font-size: 0.70em;
-  color: #777777;
-}
-
 .post {
   margin: auto;
   padding-bottom: 20px;
