@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{ template "theme/chrome/meta.html" . }}  
-    {{ template "theme/chrome/includes.html" . }}
-    <link rel="shortcut icon" href="/images/alexfinn.ico"> 
+    {{ template "partials/meta.html" . }}
+    {{ template "partials/includes.html" . }}
+    <link rel="shortcut icon" href="/images/alexfinn.ico">
     <link rel="apple-touch-icon" href="">
     <link rel="canonical" href="{{ .Permalink }}">
     <!-- atom & rss feed -->
-    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="{{ .Site.Title }}">    
+    <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="{{ .Site.Title }}">
   </head>
 
-  <body>    
-    {{ template "theme/chrome/menu.html" }}
+  <body>
+    {{ template "partials/menu.html" }}
 
 {{ $baseurl := .Site.BaseURL }}
 
@@ -22,9 +22,9 @@
     <div class="span12">
 
       <div class="posts">
-        {{ range .Data.Pages }}        
+        {{ range .Data.Pages }}
             <article class="post">
-            
+
               <header class="post-header">
                 <h1><a href="{{.RelPermalink }}">{{ .Title }}</a></h1>
                 <div class="post-time">{{ .Date.Format "January 2 2006" }}, {{ .FuzzyWordCount }} Words</div>
@@ -33,15 +33,15 @@
               <div class="post-after">
                   <div class="tags">
                     {{ range .Params.tags }}
-                        <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>              
+                        <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>
                     {{ end }}
                   </div>
               </div>
             </article>
         {{ end }}
       </div>
-           
-    </div>  
+
+    </div>
   </div>
 
-{{ template "theme/chrome/footer.html" }}
+{{ template "partials/footer.html" }}

@@ -1,16 +1,16 @@
-{{ template "theme/chrome/header.html" . }}
+{{ template "partials/header.html" . }}
     <!-- CONTENT -->
   <div class="tag-list">
       <p id="tag-name">
-      	<h1>Tag: {{ .Title }}</h1>
+        <h1>Tag: {{ .Title }}</h1>
       </p>
         {{ range .Data.Pages }}
-        <div class="one-post">      
+        <div class="one-post">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <div class="post-time">{{ .Date.Format "January 2 2006" }}</div>
         </div>
         <hr>
         {{ end }}
-  </div>      
+  </div>
 
-{{ template "theme/chrome/footer.html" . }}
+{{ template "partials/footer.html" . }}

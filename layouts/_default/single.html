@@ -1,5 +1,5 @@
 	{{ $baseurl := .Site.BaseURL }}
-	{{ template "theme/chrome/header.html" . }}
+	{{ template "partials/header.html" . }}
 	    <!-- CONTENT -->
 	  <div class="post">
 	    <header class="post-header">
@@ -9,7 +9,7 @@
 	    <div class="post-after">
 	        <div class="tags">
 	            {{ range .Params.tags }}
-	                <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>              
+	                <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>
 	            {{ end }}
 	        </div>
 	    </div>
@@ -18,9 +18,9 @@
 	        {{ .Content }}
 	    </div>
 	    <!-- END CONTENT -->
-	{{ template "theme/chrome/about.html" . }}
+	{{ template "partials/about.html" . }}
 		<nav id="pagination">
-			{{if .Prev}}<a class="prev" href="{{.Prev.Permalink}}">Prev</a>{{end}}
-			{{if .Next}}<a class="next" href="{{.Next.Permalink}}">Next</a>{{end}}
+			{{if .NextPage}}<a class="prev" href="{{.NextPage.Permalink}}">Prev</a>{{end}}
+			{{if .PrevPage}}<a class="next" href="{{.PrevPage.Permalink}}">Next</a>{{end}}
 		</nav>
-	{{ template "theme/chrome/footer.html" . }}
+	{{ template "partials/footer.html" . }}
