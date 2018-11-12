@@ -1,5 +1,5 @@
 body {
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 /* Custom container */
@@ -17,37 +17,37 @@ body {
 figure.full img {
   width: 100%;
   max-width: 100%;
-  height: auto;  
+  height: auto;
 }
 
 figure.medium
 {
     width:400px;
     margin-top:30px;
-    margin-bottom:30px;            
+    margin-bottom:30px;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 
 figure.large
 {
     width:500px;
     margin-top:30px;
-    margin-bottom:30px;            
+    margin-bottom:30px;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 
 figure.large img {
-    width:500px; 
+    width:500px;
     height: auto;
 }
 
 figcaption
 {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    background-color: #EFEFEF;    
-    font-size: 90%;        
+    background-color: #EFEFEF;
+    font-size: 90%;
     margin-left: 1%;
     padding-left: 4%;
     padding-right: 4%;
@@ -55,23 +55,23 @@ figcaption
     display: block;
 }
 
-footer { 
+footer {
  position: relative;
- z-index: 10; 
+ z-index: 10;
  line-height: normal;
- margin-top: 10px; 
+ margin-top: 10px;
  font-size: 0.6em;
  text-transform: uppercase;
- font-family: 'Liberation Sans', Helvetica, sans-serif; 
- padding-top: 2em; 
+ font-family: 'Liberation Sans', Helvetica, sans-serif;
+ padding-top: 2em;
  text-align: center;
 }
 
 .content h1 {
-  font-family: Philosopher, serif;
+  font-family: 'Philosopher', serif;
   color: #3F3F3F;
   font-size: 1.8em;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -94,7 +94,7 @@ footer {
   border-bottom: 1px solid #989898;
 }
 
-.container {  
+.container {
   margin: 0 auto;
   max-width: 960px;
   margin-top: 5%;
@@ -109,7 +109,7 @@ footer {
   padding-top: 5%;
 }
 
-.posts li {  
+.posts li {
   line-height: 90%;
   list-style: none;
 }
